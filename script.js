@@ -1,14 +1,26 @@
 // Assignment Code
+//query selectors
 var generateBtn = document.querySelector("#generate");
+var passwordText = document.querySelector("#password");
 
 function generatePassword() {
   console.log("You clicked on the button");
-  //promt user for password criteria: length 8<128, lowercase, uppercase, special characters.
-  var confirmNumber= confirm ("Please choose a character length between 8 and 128 for your password.")
-  var confirmUppercase= confirm ("Would you like uppercase values in your password?")
-  var confirmLowercase= confirm ("Would you like lowercase values in your password?")
+  //Var arrays
+  var lengthSelection= window.prompt("Please choose a password legth between 8 and 128 characters. Then press OK.")
+  var numberSelection= "0123456789"
+  var upperSelection= "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  var lowerSelection= "abcdefghijklmnopqrstuvwxyz"
+  var specialSelection= "!@#$%^&*()_+-={[}],.?/|\`~";
+  
+
+  var confirmNumber= confirm ("Click OK to confirm numbers in your password")
+  var confirmUppercase= confirm ("Click OK to confirm uppercase values in your password.")
+  var confirmLowercase= confirm ("Click OK to confirm lowercase values in your password.")
   var confirmSpecial= confirm ("Would you like to add special characters in your password?")
   //validate imput 
+  for(i=0;i < length; i++){
+
+  }
   //generate passsword using criteria
 
   
