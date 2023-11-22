@@ -12,8 +12,9 @@ function generatePassword() {
   var lowerSelection= "abcdefghijklmnopqrstuvwxyz"
   var specialSelection= "!@#$%^&*()_+-={[}],.?/|\`~";
   
+  //event listener
+  generateBtn.addEventListener("click",writePassword);
 
-  var confirmNumber= confirm ("Click OK to confirm numbers in your password")
   var confirmUppercase= confirm ("Click OK to confirm uppercase values in your password.")
   var confirmLowercase= confirm ("Click OK to confirm lowercase values in your password.")
   var confirmSpecial= confirm ("Would you like to add special characters in your password?")
