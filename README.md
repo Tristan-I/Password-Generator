@@ -3,8 +3,7 @@ README for the Password Generator Website. Here, you will find a screenshot, a l
 Deployed URL: 
 https://tristan-i.github.io/Password-Generator/
 
-(![Deployed image]Assets/photo-of-deployed.png)
-
+![Deployed image](Assets/photo-of-deployed.png)
 Sources:
 
 https://www.w3schools.com/js/js_htmldom_eventlistener.asp 
